@@ -1,3 +1,16 @@
 body {
-  background-color: yellow;
+  background-color: #7A9863; /* dark-green */
+}
+h1 {
+  font-size: 2em;
+}
+body {
+  color: #FFFFFF; /* white */
+  font-size: 30px;
+}
+body, h1 {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+a {
+  text-decoration: none;
 }
