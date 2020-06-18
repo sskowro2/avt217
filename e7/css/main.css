@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+h1{
+  padding: 15px 5px;
+  background-color: #d1dcf0 /* light blue*/
+}
+h2, h3, h4, p, ul{
+  padding: 10px 5px;
+}
+#signature{
+  font-style: italic;
+}
+.CS{
+  font-size: 30px;
+}
+.CS1{
+  font-size:24px;
+}
+.CS2{
+  font-size:12px;
+}
+.CW{
+  font-weight: bolder;
+}
+.CF{
+  font-style: normal;
+}
+.CF1{
+  font-variant: small-caps;: 
+}
