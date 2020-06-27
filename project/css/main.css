@@ -5,8 +5,65 @@ body{
   margin: 0;
 }
 img{
-  max-width: 15%
+  display: block;
+  float: right;
+  height: 250px;
+  width: 30%;
+  object-fit: cover;
 }
 li{
-  display: inline;
+  float: right;
+}
+li a{
+  display: block;
+  padding: 15px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+h1{
+  font-family: "Franklin Gothic", "Franklin", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #004B0D;
+}
+h3{
+  font-family: "Franklin Gothic", "Franklin", sans-serif;
+  font-size: 35px;
+  font-weight: 200;
+  font-style: italic;
+  text-decoration: underline;
+  color: #103E05;
+}
+nav{
+  font-family: "Franklin Gothic", "Franklin", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  font-style: italic;
+  color: #008122;
+}
+p{
+  font-family: "Franklin Gothic", "Franklin", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+}
+a:link{
+  color: #008122;
+  text-decoration: none;
+}
+a:visited{
+  color: #103E05;
+  text-decoration: none;
+}
+a:hover{
+  color: #37DF0F;
+  text-decoration: none;
+}
+a:active{
+  color: #106512;
+  text-decoration: none;
 }
