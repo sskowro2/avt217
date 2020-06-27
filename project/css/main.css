@@ -25,14 +25,14 @@ ul{
   overflow: hidden;
 }
 h1{
-  font-family: "Franklin Gothic", "Gothic", sans-serif;
+  font-family: "Franklin Gothic";
   font-size: 40px;
   font-weight: 600;
   text-transform: uppercase;
   color: #004B0D;
 }
 h3{
-  font-family: "Franklin Gothic", "Gothic", sans-serif;
+  font-family: "Franklin Gothic";
   font-size: 35px;
   font-weight: 200;
   font-style: italic;
@@ -40,14 +40,14 @@ h3{
   color: #103E05;
 }
 nav{
-  font-family: "Franklin Gothic", "Gothic", sans-serif;
+  font-family: "Franklin Gothic";
   font-size: 35px;
   font-weight: 400;
   font-style: italic;
   color: #008122;
 }
 p{
-  font-family: "Franklin Gothic", "Gothic", sans-serif;
+  font-family: "Franklin Gothic";
   font-size: 16px;
   font-style: normal;
 }
