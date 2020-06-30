@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  background-color: #dddddd;
+}
+.board{
+  width: 80vw;
+  margin: 50px auto;
+}
+.red{
+  background-color: orange;
+  width: 10vw;
+  height: 10vw;
+  float: left;
+}
+.white{
+  background-color: #222222;
+  width: 10vw;
+  height: 10vw;
+  float: left;
+}
