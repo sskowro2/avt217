@@ -1,26 +1,32 @@
 body{
   margin: 0;
+  overflow-x: hidden;
 }
 main{
   width: 120vw;
   margin: -10vw;
-  overflow-x: hidden;
 }
 .shape1{
   width: 100px;
   height: 100px;
-  background-color: tomato;
+  background-color: purple;
   float: left;
+  margin: -10px;
+  opacity: .80;
 }
 .shape2{
   width: 100px;
   height: 100px;
-  background-color: dodgerblue;
+  background-color: lime;
   float: left;
+  margin: -10px;
+  opacity: .80;
 }
 .shape3{
   width: 100px;
   height: 100px;
-  background-color: gold;
+  background-color: turquoise;
   float: left;
+  margin: -10px;
+  opacity: .80;
 }
