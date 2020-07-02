@@ -6,27 +6,196 @@ main{
   width: 120vw;
   margin: -10vw;
 }
+/* Pattern 1 */
 .pattern1 .shape1{
   width: 100px;
   height: 100px;
-  background-color: purple;
-  float: left;
-  margin: -10px;
+  background-color: red;
+  border-radius: 50px;
+  margin: -5px;
   opacity: .80;
+  float: left;
 }
-.patter1 .shape2{
+.pattern1 .shape2{
   width: 100px;
   height: 100px;
-  background-color: lime;
-  float: left;
-  margin: -10px;
+  background-color: orange;
+  border-radius: 50px;
+  margin: -5px;
   opacity: .80;
+  float: left;
 }
 .pattern1 .shape3{
   width: 100px;
   height: 100px;
-  background-color: turquoise;
-  float: left;
-  margin: -10px;
+  background-color: yellow;
+  border-radius: 50px;
+  margin: -5px;
   opacity: .80;
+  float: left;
+}
+.pattern1 .shape4{
+  width: 0px;
+  height: 0px;
+  float: left;
+}
+.pattern1 .shape5{
+  width: 0px;
+  height: 0px;
+  float: left;
+}
+/* Pattern 2 */
+.pattern2 .shape1{
+  width: 75px;
+  height: 50px;
+  background-color: lime;
+  margin: -5px;
+  opacity: .50;
+  float: left;
+}
+.pattern2 .shape2{
+  width: 75px;
+  height: 50px;
+  background-color: turquoise;
+  margin: -5px;
+  opacity: .50;
+  float: left;
+}
+.pattern2 .shape3{
+  width: 75px;
+  height: 50px;
+  background-color: aqua;
+  margin: -5px;
+  opacity: .50;
+  float: left;
+}
+.pattern2 .shape4{
+  width: 75px;
+  height: 50px;
+  background-color: skyblue;
+  margin: -5px;
+  opacity: .50;
+  float: left;
+}
+.pattern2 .shape5{
+  width: 0px;
+  height: 0px;
+  float: left;
+}
+/* Pattern 3 */
+.pattern3 .shape1{
+  width: 125px;
+  height: 125px;
+  background-image: linear-gradient(red, purple);
+  transform: rotate(45deg);
+  margin: -5px;
+  opacity: .50;
+  float: left;
+}
+.pattern3 .shape2{
+  width: 125px;
+  height: 125px;
+  background-image: linear-gradient(red, purple);
+  transform: rotate(45deg);
+  margin: -5px;
+  opacity: .50;
+  float: left;
+}
+.pattern3 .shape3{
+  width: 125px;
+  height: 125px;
+  background-image: linear-gradient(red, purple);
+  transform: rotate(45deg);
+  margin: -5px;
+  opacity: .50;
+  float: left;
+}
+.pattern3 .shape4{
+  width: 0px;
+  height: 0px;
+  float: left;
+}
+.pattern3 .shape5{
+  width: 0px;
+  height: 0px;
+  float: left;
+}
+/* Pattern 4 */
+.pattern4 .shape1{
+  width: 65px;
+  height: 85px;
+  border-radius: 5px;
+  background-image: linear-gradient(red, orange, yellow, green, blue, purple);
+  margin: -1px;
+  float: left;
+}
+.pattern4 .shape2{
+  width: 65px;
+  height: 85px;
+  border-radius: 5px;
+  background-image: linear-gradient(orange, yellow, green, blue, purple);
+  margin: -1px;
+  float: left;
+}
+.pattern4 .shape3{
+  width: 65px;
+  height: 85px;
+  border-radius: 5px;
+  background-image: linear-gradient(yellow, green, blue, purple, red, orange);
+  margin: -1px;
+  float: left;
+}
+.pattern4 .shape4{
+  width: 65px;
+  height: 85px;
+  border-radius: 5px;
+  background-image: linear-gradient( green, blue, purple, red, orange, yellow);
+  margin: -1px;
+  float: left;
+}
+.pattern4 .shape5{
+  width: 65px;
+  height: 85px;
+  border-radius: 5px;
+  background-image: linear-gradient(blue, purple, red, orange, yellow, green);
+  margin: -1px;
+  float: left;
+}
+/* Pattern 5 */
+.pattern5 .shape1{
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid red;
+  float: left;
+}
+.pattern5 .shape2{
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid blue;
+  float: left;
+}
+.pattern5 .shape3{
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid red;
+  float: left;
+}
+.pattern5 .shape4{
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid blue;
+  float: left;
+}
+.pattern5 .shape5{
+  width: 0px;
+  height: 0px;
+  float: left;
 }
