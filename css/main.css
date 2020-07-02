@@ -8,6 +8,19 @@ body {
   color: #FFFFFF; /* white */
   font-size: 30px;
 }
+header{
+  width: 75vw;
+  margin: 25px auto;
+}
+main{
+  width: 75vw;
+  margin: 25px auto;
+  display: flow-root;
+}
+.col{
+  width: 50%;
+  float: left;
+}
 body, h1 {
   font-family: "Helvetica", "Arial", sans-serif;
 }
