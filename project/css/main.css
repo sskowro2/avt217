@@ -4,13 +4,6 @@
 body{
   margin: 0;
 }
-img{
-  display: block;
-  float: right;
-  height: 250px;
-  width: 30%;
-  object-fit: cover;
-}
 li{
   float: right;
 }
@@ -30,6 +23,7 @@ h1{
   font-weight: 600;
   text-transform: uppercase;
   color: #004B0D;
+
 }
 h3{
   font-family: "Franklin Gothic";
@@ -40,11 +34,15 @@ h3{
   color: #103E05;
 }
 nav{
+  width: 50%;
+  height: 5vw;
   font-family: "Franklin Gothic";
   font-size: 35px;
   font-weight: 400;
   font-style: italic;
   color: #008122;
+  /* background-color: orange; */
+  float: right;
 }
 p{
   font-family: "Franklin Gothic";
@@ -67,3 +65,38 @@ a:active{
   color: #106512;
   text-decoration: none;
 }
+.header{
+  width: 50%;
+  height: 5vw;
+  /* background-color: orange; */
+  float: left;
+}
+.headImage{
+  width: 100%;
+  height: 35vw;
+  float: left;
+}
+img{
+  display: block;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+.text{
+  display: block;
+  width: 50%;
+  height: 50vw;
+  background-color: white;
+  overflow: visible;
+  float: left;
+}
+.image{
+  display: block;
+  width: 50%;
+  height: 20vw;
+  background-color: lime;
+  float: right;
+}
+/* footer{
+  float: left;
+} */
