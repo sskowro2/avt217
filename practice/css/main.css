@@ -1,0 +1,42 @@
+*{
+  margin: 100px auto;
+  box-sizing: border-box;
+  background-color: #d2d2d2;
+  /* display: block; */
+}
+main{
+  width: 500px;
+  height:400px;
+  /* background-color: lime; */
+}
+.left{
+  width: 375px;
+  height: auto;
+  float: left;
+}
+.right{
+  width: 125px;
+  height: auto;
+  float: right;
+}
+.oneOneBox{
+  width: 100px;
+  height: 100px;
+  margin: 12.5px;
+  background-color: cyan;
+  float: left;
+}
+.oneTwoBox{
+  width: 100px;
+  height: 225px;
+  margin: 12.5px;
+  background-color: cyan;
+  float: right;
+}
+.twoOneBox{
+  width: 225px;
+  height: 100px;
+  margin: 12.5px;
+  background-color: cyan;
+  float: left;
+}
