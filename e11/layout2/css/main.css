@@ -1,0 +1,115 @@
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+header{
+  width: auto;
+  height: 15vw;
+  background-color: yellow;
+}
+h1{
+  font-size: 80px;
+  width: auto;
+  height: 5vw;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: green;
+}
+h2{
+  font-size: 60px;
+  width: auto;
+  height: 4vw;
+  background-color: blue;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+h3{
+  font-size: 40px;
+  width: auto;
+  height: 3vw;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: lime;
+}
+main{
+  width: auto;
+  height: 125vw;
+  background-color: tomato;
+}
+.intro{
+  font-size: 16px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+  background-color: aqua;
+}
+.text{
+  font-size: 16px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+  background-color: brown;
+}
+@media only screen and (max-width: 1000px){
+  h1{
+    font-size: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  h2{
+    font-size: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  h3{
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .intro .text{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+@media only screen and (max-width: 1440px){
+  h1{
+    font-size: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  h2{
+    font-size: 35px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  h3{
+    font-size: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .intro .text{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
