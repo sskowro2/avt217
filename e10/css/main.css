@@ -1,0 +1,13 @@
+*{
+  box-sizing: border-box;
+  display: block;
+  margin: 0;
+}
+body{
+  display: hidden;
+}
+@media only screen and (max-width: 1000px){
+  body {
+    background-image: url('images/1440.png');
+  }
+}
