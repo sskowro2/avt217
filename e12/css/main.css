@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.body{
+  width: 400px;
+  height: 800px;
+  background-color: black;
+  border: 5px solid silver;
+  border-radius: 30px;
+  margin: 100px 0 0 100px;
+  position: relative;
+}
+.camera{
+  width: 15px;
+  height: 15px;
+  background-color: #555555;
+  border-radius: 50%;
+  position: absolute;
+  left: calc(200px - 7.5px);
+  top: 140px;
+}
+.speaker{
+  width: 75px;
+  height: 10px;
+  background-color: #777777;
+  border-radius: 7.5px;
+  position: absolute;
+  left: calc(200px - 37.5px);
+  top: 170px;
+}
+.screen{
+  width: 375px;
+  height: 575px;
+  background-color: white;
+  border-radius: 7.5px;
+  position: absolute;
+  left: calc(195px - (360px / 2px));
+  top: 170px;
+}
