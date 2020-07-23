@@ -6,15 +6,17 @@ body{
   margin: 0;
 }
 li{
+  margin: 25px 0;
   float: right;
 }
 li a{
   display: block;
-  padding: 15px;
+  padding: 0 15px;
+  float: left;
 }
 ul{
   list-style-type: none;
-  margin: 0;
+  margin: auto;
   padding: 0;
   overflow: hidden;
 }
@@ -24,7 +26,6 @@ h1{
   font-weight: 600;
   text-transform: uppercase;
   color: #004B0D;
-
 }
 h3{
   font-family: "Franklin Gothic";
@@ -36,14 +37,13 @@ h3{
 }
 nav{
   width: 50%;
-  height: 5vw;
+  height: auto;
   font-family: "Franklin Gothic";
   font-size: 35px;
   font-weight: 400;
   font-style: italic;
   color: #008122;
-  /* background-color: orange; */
-  float: right;
+  float: left;
 }
 p{
   font-family: "Franklin Gothic";
@@ -68,7 +68,7 @@ a:active{
 }
 .header{
   width: 50%;
-  height: 5vw;
+  height: auto;
   float: left;
 }
 .headImage{
@@ -79,14 +79,15 @@ a:active{
 img{
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
   max-width: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 .text{
   display: block;
   width: 100%;
   height: auto;
+  padding: 0 10px;
   overflow: visible;
 }
 .leftColumn{
@@ -98,5 +99,6 @@ img{
 .rightColumn{
   width: 50%;
   height: 25vw;
+  padding: 25px 0;
   float: left;
 }
